@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.otaxi{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(129, 126, 126);
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.otaxi p{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #0dcc1d;
+    padding: 6px;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+/* მეორე ნათურა */
+
+.shuqi{
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    background-color: #1d1c1cb0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.shuqi p{
+    width: 100px;
+    height: 30px;
+    border: 2px solid #cc230d;
+}
+.shuqi p:hover{
+background-color: #0dcc1d6b;
+}
